@@ -1,4 +1,4 @@
-# powerd6/emplate_website
+# powerd6/template_website
 
 A website, with testing and configuration pre-made.
 
