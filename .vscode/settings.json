@@ -8,5 +8,8 @@
         "**/node_modules",
         "**/playwright-report",
         "**/test-results"
-    ]
+    ],
+    "files.associations": {
+        "*.mdx": "markdown"
+    }
 }
