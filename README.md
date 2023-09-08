@@ -36,5 +36,6 @@ This website is built with the following technologies:
 - [Typescript](https://www.typescriptlang.org/)
 - [Vitest](https://vitest.dev/)
 - [Playwright](https://playwright.dev/)
+  - [`expect-axe-playwright`](https://github.com/Widen/expect-axe-playwright)
 - [GitHub Actions](https://github.com/features/actions)
 - [Visual Studio Code](https://code.visualstudio.com/)
