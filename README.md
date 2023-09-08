@@ -16,3 +16,14 @@ After getting this repository, you can run the following commands:
 | `npm run dev`     | Launches the website on your machine, available on [`localhost:4321`](http://localhost:4321). |
 | `npm run test`    | Launches the automated suite of tests.                                                        |
 | `npm run astro *` | Runs [`astro`](https://docs.astro.build/en/reference/cli-reference/) commands.                |
+
+### Continuous Delivery
+
+This project follows the continuous delivery definition shared on [minimumcd.org](https://minimumcd.org/minimumcd/).
+
+[![Continuous Delivery](https://github.com/powerd6/template_website/actions/workflows/cd.yml/badge.svg?branch=main&event=push)](https://github.com/powerd6/template_website/actions/workflows/cd.yml)
+
+This means that:
+- All pull requests are built and tested;
+- All merges to `main` are built, tested, and deployed;
+- All merges to `main` are integrated into open branches (via `git rebase`);
