@@ -8,12 +8,14 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "test": "vitest run"
+    "test": "vitest run",
+    "e2e": "npx playwright test"
   },
   "dependencies": {
     "astro": "^3.0.11"
   },
   "devDependencies": {
+    "@playwright/test": "^1.37.1",
     "vitest": "^0.34.4"
   }
 }
