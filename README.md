@@ -27,3 +27,14 @@ This means that:
 - All pull requests are built and tested;
 - All merges to `main` are built, tested, and deployed;
 - All merges to `main` are integrated into open branches (via `git rebase`);
+
+## Technology Stack
+
+This website is built with the following technologies:
+
+- [Astro](https://astro.build/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Vitest](https://vitest.dev/)
+- [Playwright](https://playwright.dev/)
+- [GitHub Actions](https://github.com/features/actions)
+- [Visual Studio Code](https://code.visualstudio.com/)
