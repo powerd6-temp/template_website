@@ -12,9 +12,9 @@
     "test:check": "astro check",
     "test:tsc": "tsc --noEmit",
     "test:unit": "vitest run",
+    "pretest:e2e": "playwright install --with-deps",
     "test:e2e": "playwright test",
-    "postinstall": "npm-run-all postinstall:*",
-    "postinstall:playwright": "playwright install --with-deps" 
+    "postinstall": "npm-run-all postinstall:*"
   },
   "dependencies": {
     "astro": "^3.0.11",
