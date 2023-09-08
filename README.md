@@ -15,3 +15,4 @@ After getting this repository, you can run the following commands:
 | `npm run start`   | Launches the website on your machine, available on [`localhost:4321`](http://localhost:4321). |
 | `npm run dev`     | Launches the website on your machine, available on [`localhost:4321`](http://localhost:4321). |
 | `npm run test`    | Launches the automated suite of tests.                                                        |
+| `npm run astro *` | Runs [`astro`](https://docs.astro.build/en/reference/cli-reference/) commands.                |
