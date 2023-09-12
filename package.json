@@ -3,6 +3,8 @@
   "type": "module",
   "version": "0.0.1",
   "scripts": {
+    "postinstall": "npm-run-all postinstall:*",
+    "postinstall:sync": "astro sync",
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
